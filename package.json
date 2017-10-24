@@ -4,7 +4,7 @@
   "description": "",
   "main": "make-task-list.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/tex-lint/cli/lint-files.cli.js openMeschersky tasks/*.*.tex"
   },
   "repository": {
     "type": "git",
